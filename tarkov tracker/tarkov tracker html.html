@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tarkov tracker</title>
+	<script>
+		alert("press f11 to make fullscreen browser")
+	</script>
+	<link rel="stylesheet" href="tarkov tracker.css">
+</head>
+<body>
+
+	<div class="documenthalf1">
+			<div class="half1">
+				<iframe src="https://tarkovtracker.io/" frameborder="0" 		width="100%" height="100%"></iframe>
+		
+			</div>
+			<div class="half2">
+				<iframe src="https://tarkovtracker.io/gather/" 		frameborder="0" width="100%" height="100%"></iframe>
+			</div>
+		
+			<div class="bhalf1">
+				<iframe src="https://tarkovtracker.io/hideout/available/		" frameborder="0" width="100%" height="100%"></iframe>
+			</div>
+			<div class="bhalf2">
+				<iframe src="https://tarkovtracker.io/maps/customs/" 		frameborder="0" width="100%" height="100%"></iframe>
+			</div>
+	</div>
+	<div class="documenthalf2">
+			<div class="map">
+				<iframe src="https://mapgenie.io/tarkov" frameborder="0" width="100%" height="100%"></iframe>
+			</div>
+			<div class="fleamarket">
+				<iframe src="https://tarkov-market.com/" frameborder="0" width="100%" height="100%"></iframe>
+			</div>
+	</div>
+
+	<script type="text/javascript">
+    window.onload = maxWindow;
+
+    function maxWindow() {
+        window.moveTo(0, 0);
+
+        if (document.all) {
+            top.window.resizeTo(screen.availWidth, screen.availHeight);
+        }
+
+        else if (document.layers || document.getElementById) {
+            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
+                top.window.outerHeight = screen.availHeight;
+                top.window.outerWidth = screen.availWidth;
+            }
+        }
+    }
+</script> 
+</body>
+</html>
